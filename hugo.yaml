@@ -1,0 +1,75 @@
+baseURL: "localhost:1313"
+languageCode: en-us
+title: "Darren Victorano"
+paginate: 5
+theme: ["PaperMod"]
+
+frontmatter:
+  default: "yaml"
+
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    noClasses: false
+    style: monokai
+
+params:
+  author: "Darren Victoriano"
+  defaultTheme: auto
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  showtoc: true
+  tocopen: false
+  profileMode:
+    enabled: true
+    title: "Software Engineer"
+    subtitle: "Solving problems, one line of code at a time."
+    # imageUrl: "<link>"
+    # imageTitle: "My Image"
+    # imageWidth: 120
+    # imageHeight: 120
+
+  socialIcons:
+    - name: "GitHub"
+      url: "https://github.com/DarrenVictoriano"
+    - name: "Linkedin"
+      url: "https://www.linkedin.com/in/darren-victoriano/"
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    keys: ["title", "permalink", "summary", "content"]
+
+  assets:
+    disableHLJS: true
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 15
+    # - identifier: search
+    #   name: Search
+    #   url: /search/
+    #   weight: 20
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags/
+    #   weight: 25
+    # - identifier: archive
+    #   name: Archive
+    #   url: /archives/
+    #   weight: 30
+output:
+  home:
+    - HTML
+    - RSS
+    - JSON
