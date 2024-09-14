@@ -15,7 +15,7 @@ UseHugoToc: true
 # canonicalURL: "https://canonical.url/to/page"
 # aliases: ["/first"]
 # weight: 1
-draft: false
+draft: true  # hugo new posts/title-with-dash
 tags: ["test"]
 cover:
     image: "<image path/url>" # image path/url

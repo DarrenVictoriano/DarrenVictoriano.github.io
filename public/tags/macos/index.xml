@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>MacOS on Darren Victorano</title>
+    <link>http://localhost:1313/tags/macos/</link>
+    <description>Recent content in MacOS on Darren Victorano</description>
+    <generator>Hugo -- 0.134.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Sep 2024 21:36:26 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terminal Setup</title>
+      <link>http://localhost:1313/posts/terminal-setup/</link>
+      <pubDate>Fri, 13 Sep 2024 21:36:26 -0700</pubDate>
+      <guid>http://localhost:1313/posts/terminal-setup/</guid>
+      <description>&lt;h2 id=&#34;this-is-a-test&#34;&gt;This is a test&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

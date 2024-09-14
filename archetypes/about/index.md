@@ -23,5 +23,6 @@ cover:
     alt: "<alt text>" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+    # hiddenList: true  # only hide list view
+    # hidden: false # only hide on current single page
 ---

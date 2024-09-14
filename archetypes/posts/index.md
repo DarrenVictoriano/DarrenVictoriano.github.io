@@ -18,9 +18,10 @@ UseHugoToc: true
 draft: false
 tags: ["test"]
 cover:
-    image: "<image path/url>" # image path/url
+    image: "<image path/url>" # should be 640 x 330
     alt: "<alt text>" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+    # hiddenList: true  # only hide list view
+    # hidden: false # only hide on current single page
 ---
