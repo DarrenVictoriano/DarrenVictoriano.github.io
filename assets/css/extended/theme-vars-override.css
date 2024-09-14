@@ -1,0 +1,31 @@
+:root {
+    --theme: #ccd0da;
+    --entry: #eff1f5;
+    --primary: #4c4f69;
+    --secondary: #5c5f77;
+    --tertiary: #dce0e8;
+    --content: #4c4f69;
+    --hljs-bg: #bcc0cc;
+    --code-bg: #eff1f5;
+    --border: #9ca0b0;
+}
+
+.dark {
+    --theme: #24273a;
+    --entry: #363a4f;
+    --primary: #cad3f5;
+    --secondary: #a5adcb;
+    --tertiary: #1e2030;
+    --content: #cad3f5;
+    --hljs-bg: #494d64;
+    --code-bg: #363a4f;
+    --border: #5b6078;
+}
+
+.list {
+    background: var(--theme);
+}
+
+.dark.list {
+    background: var(--theme);
+}
