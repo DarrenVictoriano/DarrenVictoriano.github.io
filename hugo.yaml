@@ -35,8 +35,8 @@ params:
     # imageHeight: 120
 
   cover:
-    hiddenList: true
-    hidden: true
+    hiddenInList: true
+    hidden: false
 
   socialIcons:
     - name: "GitHub"
