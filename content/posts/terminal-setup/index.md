@@ -1,6 +1,6 @@
 ---
-title: 'First Post Test'
-date: 2024-09-13T19:38:49-07:00
+title: 'Terminal Setup'
+date: 2024-09-13T21:36:26-07:00
 author: "Darren Victoriano"
 hidemeta: false
 comments: false
@@ -15,14 +15,15 @@ UseHugoToc: true
 # canonicalURL: "https://canonical.url/to/page"
 # aliases: ["/first"]
 # weight: 1
-draft: true  # hugo new posts/title-with-dash
+draft: false
 tags: ["test"]
 cover:
-    image: "<image path/url>" # image path/url
+    image: "images/matrix-pexel.webp" # image path/url
     alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+    caption: "" # display caption under cover
+    relative: true # when using page bundles set this to true
+    # hiddenList: true  # only hide list view
+    # hidden: false # only hide on current single page
 ---
 
 ## This is a test

@@ -3,6 +3,7 @@ languageCode: en-us
 title: "Darren Victorano"
 paginate: 5
 theme: ["PaperMod"]
+enableEmoji: true
 
 frontmatter:
   default: "yaml"
@@ -16,6 +17,7 @@ markup:
     style: monokai
 
 params:
+  env: production
   author: "Darren Victoriano"
   defaultTheme: auto
   ShowBreadCrumbs: false
@@ -32,6 +34,10 @@ params:
     # imageWidth: 120
     # imageHeight: 120
 
+  cover:
+    hiddenList: true
+    hidden: true
+
   socialIcons:
     - name: "GitHub"
       url: "https://github.com/DarrenVictoriano"
@@ -45,6 +51,11 @@ params:
 
   assets:
     disableHLJS: true
+    # favicon: "/favicon.ico"
+    # favicon16x16: "/favicon-16x16.png"
+    # favicon32x32: "/favicon-32x32.png"
+    # apple_touch_icon: "/apple-touch-icon.png"
+    # safari_pinned_tab: "/safari-pinned-tab.svg"
 
 menu:
   main:
