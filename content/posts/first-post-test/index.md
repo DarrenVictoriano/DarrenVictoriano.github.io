@@ -15,7 +15,7 @@ UseHugoToc: true
 # canonicalURL: "https://canonical.url/to/page"
 # aliases: ["/first"]
 # weight: 1
-draft: true
+draft: false
 tags: ["test"]
 cover:
     image: "<image path/url>" # image path/url

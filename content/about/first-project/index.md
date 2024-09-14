@@ -16,7 +16,7 @@ showtoc: false
 # canonicalURL: "https://canonical.url/to/page"
 # aliases: ["/first"]
 # weight: 1
-draft: true
+draft: false
 tags: ["Projects"]
 cover:
     image: "<image path/url>" # image path/url
