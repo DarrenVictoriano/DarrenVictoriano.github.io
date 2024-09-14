@@ -16,7 +16,7 @@ UseHugoToc: true
 # aliases: ["/first"]
 # weight: 1
 draft: false
-tags: ["test"]
+tags: ["MacOS", "Setup"]
 cover:
     image: "images/matrix-pexel.webp" # image path/url
     alt: "<alt text>" # alt text
