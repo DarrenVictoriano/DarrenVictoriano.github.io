@@ -26,7 +26,7 @@ params:
   profileMode:
     enabled: true
     title: "Software Engineer"
-    subtitle: "Solving Problems, One Line of Code at a Time"
+    subtitle: "Solving problems, one line of code at a time."
     # imageUrl: "<link>"
     # imageTitle: "My Image"
     # imageWidth: 120
@@ -34,9 +34,9 @@ params:
 
   socialIcons:
     - name: "GitHub"
-      url: "https://github.com"
+      url: "https://github.com/DarrenVictoriano"
     - name: "Linkedin"
-      url: "https://linkedin.com"
+      url: "https://www.linkedin.com/in/darren-victoriano/"
 
   fuseOpts:
     isCaseSensitive: false
@@ -48,6 +48,10 @@ params:
 
 menu:
   main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
     - identifier: posts
       name: Posts
       url: /posts/
