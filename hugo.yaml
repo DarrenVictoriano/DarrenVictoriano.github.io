@@ -59,7 +59,12 @@ params:
     # apple_touch_icon: "/apple-touch-icon.png"
     # safari_pinned_tab: "/safari-pinned-tab.svg"
 
-menu:
+menus:
+  footer:
+    - identifier: uses
+      name: Uses
+      url: /about/
+      weight: 20
   main:
     - identifier: about
       name: About
@@ -81,6 +86,7 @@ menu:
     #   name: Archive
     #   url: /archives/
     #   weight: 30
+
 output:
   home:
     - HTML

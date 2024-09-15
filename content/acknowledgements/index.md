@@ -1,6 +1,6 @@
 ---
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
-date: {{ .Date }}
+title: 'Acknowledgements'
+date: 2024-09-14T21:00:52-07:00
 author: "Darren Victoriano"
 hidemeta: false
 comments: false
@@ -22,6 +22,7 @@ cover:
     alt: "<alt text>" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
-    # hiddenList: true  # only hide list view
-    # hidden: false # only hide on current single page
+    hiddenList: true  # only hide list view
+    hidden: true # only hide on current single page
 ---
+# Acknowledgements

@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Darren Victorano</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Darren Victorano</description>
+    <title>Uses on Darren Victorano</title>
+    <link>http://localhost:1313/uses/</link>
+    <description>Recent content in Uses on Darren Victorano</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Sep 2024 21:00:52 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/uses/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Acknowledgements</title>
-      <link>http://localhost:1313/acknowledgements/</link>
-      <pubDate>Sat, 14 Sep 2024 21:00:52 -0700</pubDate>
-      <guid>http://localhost:1313/acknowledgements/</guid>
-      <description>&lt;h1 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h1&gt;</description>
-    </item>
-    <item>
-      <title>Uses</title>
-      <link>http://localhost:1313/uses/</link>
-      <pubDate>Sat, 14 Sep 2024 20:59:27 -0700</pubDate>
-      <guid>http://localhost:1313/uses/</guid>
+      <title>What I Use</title>
+      <link>http://localhost:1313/uses/test_index/</link>
+      <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uses/test_index/</guid>
       <description>&lt;h2 id=&#34;my-tech-stack&#34;&gt;My Tech Stack&lt;/h2&gt;
 &lt;p&gt;Here’s a list of the tools and technologies I use:&lt;/p&gt;
 &lt;h3 id=&#34;development&#34;&gt;Development&lt;/h3&gt;
@@ -39,14 +32,6 @@
 &lt;li&gt;&lt;strong&gt;Monitor&lt;/strong&gt;: &lt;a href=&#34;https://www.dell.com/en-us/shop/accessories/apd/210-argu&#34;&gt;Dell UltraSharp&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Feel free to explore and see what works best for you!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Terminal Setup</title>
-      <link>http://localhost:1313/posts/terminal-setup/</link>
-      <pubDate>Fri, 13 Sep 2024 21:36:26 -0700</pubDate>
-      <guid>http://localhost:1313/posts/terminal-setup/</guid>
-      <description>&lt;h2 id=&#34;this-is-a-test&#34;&gt;This is a test&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
