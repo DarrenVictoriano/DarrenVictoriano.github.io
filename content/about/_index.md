@@ -1,8 +1,7 @@
 ---
-title: "Hey, there!"
+title: "Hi, I'm Darren!"
 showtoc: false
 hideMeta: true
 draft: false
 ---
-I'm Darren, a passionate software engineer constantly exploring new technologies and honing my skills. I created this blog not only to document my journey and share what I learn, but also to leave my own digital footprint on the internet. It's a place where I can contribute my insights, connect with others, and create a lasting record of the knowledge I pick up along the way.
-
+I'm a software engineer based in the U.S. I love exploring new technologies and continuously mastering my craft. With a strong emphasis on automation, I’m always seeking ways to streamline processes and enhance efficiency through innovative solutions. My passion for learning drives me to stay on the cutting edge of the tech industry, constantly experimenting with new tools and refining my expertise in automation and development practices.
