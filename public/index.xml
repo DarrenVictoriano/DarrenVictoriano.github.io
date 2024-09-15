@@ -6,15 +6,47 @@
     <description>Recent content on Darren Victorano</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Sep 2024 21:36:26 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 14 Sep 2024 21:00:52 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Acknowledgements</title>
+      <link>http://localhost:1313/acknowledgements/</link>
+      <pubDate>Sat, 14 Sep 2024 21:00:52 -0700</pubDate>
+      <guid>http://localhost:1313/acknowledgements/</guid>
+      <description>&lt;h1 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://medium.com/@protiumx/bash-gnu-stow-take-a-walk-while-your-new-macbook-is-being-set-up-351a6f2f9225&#34;&gt;Brian Mayo&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Uses</title>
+      <link>http://localhost:1313/uses/</link>
+      <pubDate>Sat, 14 Sep 2024 20:59:27 -0700</pubDate>
+      <guid>http://localhost:1313/uses/</guid>
+      <description>&lt;h2 id=&#34;my-tech-stack&#34;&gt;My Tech Stack&lt;/h2&gt;
+&lt;p&gt;Here’s a list of the tools and technologies I use:&lt;/p&gt;
+&lt;h3 id=&#34;development&#34;&gt;Development&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Editor&lt;/strong&gt;: &lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Version Control&lt;/strong&gt;: &lt;a href=&#34;https://git-scm.com/&#34;&gt;Git&lt;/a&gt; with &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Programming Languages&lt;/strong&gt;: Python, JavaScript, Go, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tools&#34;&gt;Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Terminal&lt;/strong&gt;: &lt;a href=&#34;https://iterm2.com/&#34;&gt;iTerm2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Containerization&lt;/strong&gt;: &lt;a href=&#34;https://www.docker.com/&#34;&gt;Docker&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;hardware&#34;&gt;Hardware&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Laptop&lt;/strong&gt;: &lt;a href=&#34;https://www.apple.com/macbook-pro/&#34;&gt;MacBook Pro&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Monitor&lt;/strong&gt;: &lt;a href=&#34;https://www.dell.com/en-us/shop/accessories/apd/210-argu&#34;&gt;Dell UltraSharp&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Feel free to explore and see what works best for you!&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Terminal Setup</title>
       <link>http://localhost:1313/posts/terminal-setup/</link>
       <pubDate>Fri, 13 Sep 2024 21:36:26 -0700</pubDate>
       <guid>http://localhost:1313/posts/terminal-setup/</guid>
-      <description>&lt;h2 id=&#34;this-is-a-test&#34;&gt;This is a test&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This guide will walk you through how I setup my terminal in macOs. The terminal is an integral part of my workflow and I have a list of tools that I have been using for years. And since setting up my environment usually only happens once on a new machine, there are times where I forget how to set it up so this will serve as a reference for myself as well.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
