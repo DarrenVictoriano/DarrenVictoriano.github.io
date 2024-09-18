@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Darren Victorano</title>
-    <link>http://localhost:55859/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Darren Victorano</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 14 Sep 2024 21:00:52 -0700</lastBuildDate>
-    <atom:link href="http://localhost:55859/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Acknowledgements</title>
-      <link>http://localhost:55859/acknowledgements/</link>
+      <link>http://localhost:1313/acknowledgements/</link>
       <pubDate>Sat, 14 Sep 2024 21:00:52 -0700</pubDate>
-      <guid>http://localhost:55859/acknowledgements/</guid>
+      <guid>http://localhost:1313/acknowledgements/</guid>
       <description>&lt;h1 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://medium.com/@protiumx/bash-gnu-stow-take-a-walk-while-your-new-macbook-is-being-set-up-351a6f2f9225&#34;&gt;Brian Mayo&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Uses</title>
-      <link>http://localhost:55859/uses/</link>
+      <link>http://localhost:1313/uses/</link>
       <pubDate>Sat, 14 Sep 2024 20:59:27 -0700</pubDate>
-      <guid>http://localhost:55859/uses/</guid>
+      <guid>http://localhost:1313/uses/</guid>
       <description>&lt;h2 id=&#34;my-tech-stack&#34;&gt;My Tech Stack&lt;/h2&gt;
 &lt;p&gt;Here’s a list of the tools and technologies I use:&lt;/p&gt;
 &lt;h3 id=&#34;development&#34;&gt;Development&lt;/h3&gt;
@@ -43,9 +43,9 @@
     </item>
     <item>
       <title>Terminal Setup</title>
-      <link>http://localhost:55859/posts/terminal-setup/</link>
+      <link>http://localhost:1313/posts/terminal-setup/</link>
       <pubDate>Fri, 13 Sep 2024 21:36:26 -0700</pubDate>
-      <guid>http://localhost:55859/posts/terminal-setup/</guid>
+      <guid>http://localhost:1313/posts/terminal-setup/</guid>
       <description>&lt;p&gt;This guide will walk you through how I setup my terminal in macOs. The terminal is an integral part of my workflow and I have a list of tools that I have been using for years. And since setting up my environment usually only happens once on a new machine, there are times where I forget how to set it up so this will serve as a reference for myself as well.&lt;/p&gt;</description>
     </item>
   </channel>

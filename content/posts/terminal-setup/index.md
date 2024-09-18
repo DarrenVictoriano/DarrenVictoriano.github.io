@@ -27,6 +27,9 @@ cover:
 ---
 This guide will walk you through how I setup my terminal in macOs. The terminal is an integral part of my workflow and I have a list of tools that I have been using for years. And since setting up my environment usually only happens once on a new machine, there are times where I forget how to set it up so this will serve as a reference for myself as well.
 
+This is how your terminal will looks like by the end of this tutorial:
+![iterm2-done](images/iterm2-done.webp)
+
 ## Install the Essentials
 Assuming you are following this guide to set up your new machine, the first thing you need to do is check for an OS update. Then, install [Homebrew](https://brew.sh). As of this writing, the Homebrew installation process will prompt you to also install the Xcode Command Line Tools, which are essential for this setup. After completing these steps, you should have the following tools installed:
 * hombrew
