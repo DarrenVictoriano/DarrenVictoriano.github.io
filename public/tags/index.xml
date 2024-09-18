@@ -29,5 +29,19 @@
       <guid>http://localhost:1313/tags/setup/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Terminal</title>
+      <link>http://localhost:1313/tags/terminal/</link>
+      <pubDate>Fri, 13 Sep 2024 21:36:26 -0700</pubDate>
+      <guid>http://localhost:1313/tags/terminal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zsh</title>
+      <link>http://localhost:1313/tags/zsh/</link>
+      <pubDate>Fri, 13 Sep 2024 21:36:26 -0700</pubDate>
+      <guid>http://localhost:1313/tags/zsh/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

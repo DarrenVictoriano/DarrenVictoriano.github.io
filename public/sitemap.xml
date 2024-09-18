@@ -26,7 +26,13 @@
     <loc>http://localhost:1313/tags/setup/</loc>
     <lastmod>2024-09-13T21:36:26-07:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/terminal/</loc>
+    <lastmod>2024-09-13T21:36:26-07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/terminal-setup/</loc>
+    <lastmod>2024-09-13T21:36:26-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/zsh/</loc>
     <lastmod>2024-09-13T21:36:26-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
