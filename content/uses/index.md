@@ -16,7 +16,7 @@ UseHugoToc: true
 # aliases: ["/first"]
 # weight: 1
 draft: false
-tags: ["test"]
+tags: [""]
 cover:
     image: "<image path/url>" # should be 640 x 330
     alt: "<alt text>" # alt text
