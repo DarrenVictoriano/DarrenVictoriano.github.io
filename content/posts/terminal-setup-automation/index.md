@@ -88,5 +88,52 @@ If you're like me and not all the GUI applications you use are available through
 * `mas install <product_id>` this will install the app using the productID
 
 ## MacOS `defaults` and `PListBuddy`
+Now, in my previous tutorial in [Aesthetic Enhancements]({{< ref "/posts/terminal-setup#aesthetic-enhancements" >}} "Aesthetic Enhancements") section, we had to manually change some settings from the iTerm2 application. We can automate this using `defaults` and `PListBuddy`.
+* `defaults` is a higher-level tool primarily used to interact with the macOS system’s user defaults database, which stores user preferences. It provides a simpler interface to read from and write to plist files but is mainly designed for handling user settings.
+* `PlistBuddy` is a tool specifically designed to work directly with plist files. It allows us to perform various operations like adding, deleting, and modifying plist entries with fine-grained control. It's more flexible when you need to edit deeply nested structures or complex data types.
 
-[Aesthetic Enhancements]({{< ref "/posts/terminal-setup#aesthetic-enhancements" >}} "Aesthetic Enhancements")
+First we use `defaults` to find out where MacOS stores the user preferences for the app we want to automate, in our case it will be `iTerm2`. We can do this using the `defaults domains` which will list all domains that stores user preferences, each appclication typically has its own domain, then we'll use `grep` in conjunctions to filter the result like this:
+```bash
+defaults domains | grep iterm2
+```
+This command will print out all the domains and highlight what we `grep` like this:
+![iterm2-grep-result](images/iterm2-grep-result.webp)
+
+Now that we know what `iTerm2`'s domain, we can read its content using this command:
+```
+defaults read com.googlecode.iterm2
+```
+This will print out all the user preferences for `iTerm2`, this example below is a simplified version, there are a lot of lines that has been redacted.
+```
+{
+    // redacted lines of codes here
+    HapticFeedbackForEsc = 0;
+    HideScrollbar = 0;
+    HotkeyMigratedFromSingleToMulti = 1;
+    NSNavLastRootDirectory = "~/Downloads";
+    NSNavPanelExpandedSizeForOpenMode = "{800, 448}";
+    NSOverlayScrollersFallBackForAccessoryViews = 0;
+    NSQuotedKeystrokeBinding = "";
+    NSRepeatCountBinding = "";
+    NSScrollAnimationEnabled = 0;
+    "New Bookmarks" = (
+        {
+            // reacted lines of code
+            "Character Encoding" = 4;
+            "Close Sessions On End" = 1;
+            Columns = 100;
+            "Draw Powerline Glyphs" = 0;
+            Rows = 30;
+        }
+    )
+
+}
+```
+For configurations in the root like `HapticFeedbackForEsc` or `HideScrollbar`, we use `defaults write` to update the value like this:
+```
+defaults write com.googlecode.iterm2 "HideScrollbar" 1
+```
+as for nested value like `Character Encoding` or `Columns`, unfortunately `defaults` aren't capable of doing it so we will use `PListBuddy` for this. But `PListBuddy` is not in our path so to invoke it, we need to provide the full path which is located in:
+```
+/usr/libexec/PlistBuddy
+```
