@@ -88,11 +88,15 @@ If you're like me and not all the GUI applications you use are available through
 * `mas install <product_id>` this will install the app using the productID
 
 ## MacOS `defaults` and `PListBuddy`
-Now, in my previous tutorial in [Aesthetic Enhancements]({{< ref "/posts/terminal-setup#aesthetic-enhancements" >}} "Aesthetic Enhancements") section, we had to manually change some settings from the iTerm2 application. We can automate this using `defaults` and `PListBuddy`.
+Now, in my previous tutorial in [Aesthetic Enhancements]({{< ref "/posts/terminal-setup#aesthetic-enhancements" >}} "Aesthetic Enhancements") section, we had to manually change some settings from the iTerm2 application. Since MacOS stores all user preferences of each application in a `.plist` file saved here:
+```
+~/Library/Preferences/<domain_name_of_the_app>
+```
+We can automate updating this configuration in the command line using `defaults` and `PListBuddy` built-in tools.
 * `defaults` is a higher-level tool primarily used to interact with the macOS system’s user defaults database, which stores user preferences. It provides a simpler interface to read from and write to plist files but is mainly designed for handling user settings.
 * `PlistBuddy` is a tool specifically designed to work directly with plist files. It allows us to perform various operations like adding, deleting, and modifying plist entries with fine-grained control. It's more flexible when you need to edit deeply nested structures or complex data types.
 
-First we use `defaults` to find out where MacOS stores the user preferences for the app we want to automate, in our case it will be `iTerm2`. We can do this using the `defaults domains` which will list all domains that stores user preferences, each appclication typically has its own domain, then we'll use `grep` in conjunctions to filter the result like this:
+First we use `defaults` to find out what the domain name of the app we want to update the user preferences of, I will be using `iTerm2` for this example. We can do this using the `defaults domains` which will list all domains that stores user preferences, each application typically has its own domain, then we'll use `grep` in conjunctions to filter the result like this:
 ```bash
 defaults domains | grep iterm2
 ```
