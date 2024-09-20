@@ -12,13 +12,14 @@ markup:
   highlight:
     codeFences: true
     guessSyntax: true
-    lineNos: true
+    lineNos: false
     noClasses: false
     style: monokai
 
 params:
   env: production
   author: "Darren Victoriano"
+  description: "Darren Victoriano's personal website is a space where he shares tutorials on software development, test automation, and tech-related topics. It's a hub for learning, featuring practical guides and insights aimed at helping others enhance their skills and stay up to date with the latest technologies."
   defaultTheme: auto
   ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
