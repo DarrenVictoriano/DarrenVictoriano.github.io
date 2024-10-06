@@ -1,5 +1,5 @@
 ---
-title: 'Acknowledgements'
+title: "Acknowledgements"
 date: 2024-09-14T21:00:52-07:00
 author: "Darren Victoriano"
 hidemeta: false
@@ -18,13 +18,16 @@ UseHugoToc: true
 draft: false
 tags: [""]
 cover:
-    image: "<image path/url>" # should be 640 x 330
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hiddenList: true  # only hide list view
-    hidden: true # only hide on current single page
+  image: "<image path/url>" # should be 640 x 330
+  alt: "<alt text>" # alt text
+  caption: "<text>" # display caption under cover
+  relative: false # when using page bundles set this to true
+  hiddenList: true # only hide list view
+  hidden: true # only hide on current single page
 ---
+
 # Acknowledgements
 
 [Brian Mayo](https://medium.com/@protiumx/bash-gnu-stow-take-a-walk-while-your-new-macbook-is-being-set-up-351a6f2f9225)
+[Josean](https://www.josean.com/posts/how-to-setup-neovim-2024)
+
